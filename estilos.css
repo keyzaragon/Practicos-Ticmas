@@ -1,0 +1,116 @@
+
+body{
+      background-color: rgb(210, 240, 181);
+    }
+
+div.a {
+        text-align: center;
+        background-color: rgb(195, 234, 244);
+        border: 1px solid blue;
+        padding: 12px;
+        width: 80%;
+        margin: 0 auto;
+        font-family: 'Poppins', sans-serif;
+      }
+      
+div.b {
+    text-align: left;
+    background-color: white;
+    border: 1px solid blue;
+    padding: 12px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+img.c {
+    border: 1px solid blue;
+  }
+
+fieldset{
+    margin-bottom: 12px;
+}
+legend{
+    background-color: rgb(181, 216, 240);
+    padding: 5px;
+    border: 2px solid blue;
+    border-radius: 40px;
+    font-weight: bold;
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+        border-radius: 50%;
+        margin-bottom: 22px;
+        float: left;
+      }
+
+span {
+    font-weight: bold;
+}
+
+
+.nav-enlace{
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 40px;
+  font-size: small;
+  box-shadow: 5px 5px coral;
+}
+.nav-enlace:hover{
+  box-shadow:none;
+  background-color: blueviolet;
+}
+nav{
+  background-color: rgb(195, 234, 244);
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-boton{
+  background-color: blue;
+  color: white;
+  padding: 10px 30px;
+  border: 2px solid white;
+  display: none;
+}
+@media (max-width: 600px){
+  nav {
+    background-color: greenyellow;
+    flex-direction: column;
+  }
+  .nav-enlace {
+    margin: 10px 0;
+  }
+  .nav-boton {
+    display: inline-block;
+  }
+  .desaparece {
+    display: none;
+  }
+}
+
+
+.cursos_btn {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 40px;
+  font-size: small;
+  box-shadow: 5px 5px coral;
+}
+.cursos_btn:hover{
+  box-shadow:none;
+  background-color: blueviolet;
+}
+
+.oculto {
+  display: none;
+}
+.mostrar {
+  display: block;
+}
